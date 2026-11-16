@@ -1,0 +1,35 @@
+{
+  "name": "karan-tours-travels",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Karan Tours & Travels – Premium taxi booking & travel website (Stage 1: Frontend)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.1.0",
+    "@fontsource-variable/manrope": "^5.1.0",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.0",
+    "react-router-dom": "^7.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "puppeteer-core": "^25.17.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  }
+}

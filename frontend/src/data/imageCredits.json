@@ -1,0 +1,80 @@
+{
+  "destinations/shirdi": {
+    "title": "File:Chawadi in Shirdi 2.jpg",
+    "author": "कृष्ण कान्त शर्मा",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chawadi_in_Shirdi_2.jpg"
+  },
+  "destinations/ajanta-ellora": {
+    "title": "File:Courtyard and Mahabharata Reliefs at the Kailasa Temple, Ellora 01.jpg",
+    "author": "Rohit Sharma",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Courtyard_and_Mahabharata_Reliefs_at_the_Kailasa_Temple,_Ellora_01.jpg"
+  },
+  "destinations/kanha": {
+    "title": "File:Barasingha in Kanha National Park 02.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barasingha_in_Kanha_National_Park_02.jpg"
+  },
+  "destinations/amarkantak": {
+    "title": "File:A Hindu temple, Amarkantak Madhya Pradesh India.jpg",
+    "author": "R Singh",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Hindu_temple,_Amarkantak_Madhya_Pradesh_India.jpg"
+  },
+  "destinations/jabalpur": {
+    "title": "File:Marble Rocks Bhedaghat , Jabalpur.jpg",
+    "author": "Archies2804",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marble_Rocks_Bhedaghat_,_Jabalpur.jpg"
+  },
+  "destinations/shegaon": {
+    "title": "File:Gajanan Maharaj Temple (84134).jpg",
+    "author": "Real96kmaratha",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gajanan_Maharaj_Temple_(84134).jpg"
+  },
+  "destinations/goa": {
+    "title": "File:Sunloungers at Palolem beach.jpg",
+    "author": "Ravi Dwivedi",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunloungers_at_Palolem_beach.jpg"
+  },
+  "destinations/mahabaleshwar": {
+    "title": "File:Panoramic view from Elphinstone Point.jpg",
+    "author": "Pratishkhedekar",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_from_Elphinstone_Point.jpg"
+  },
+  "fleet/innova-hycross": {
+    "title": "File:2023 Toyota Zenix 2.0 v.jpg",
+    "author": "Ethan Llamas",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Zenix_2.0_v.jpg"
+  },
+  "fleet/carens": {
+    "title": "File:Kia Carens 2024 Model.jpg",
+    "author": "Ganesh Mohan T",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kia_Carens_2024_Model.jpg"
+  },
+  "fleet/tempo-traveller": {
+    "title": "File:Force Traveller Luxury.jpg",
+    "author": "वंपायर;Cropped, minor redrawings, and levels adjusted by uploader Mr.choppers",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Force_Traveller_Luxury.jpg"
+  },
+  "fleet/tata-winger": {
+    "title": "File:Tata Winger van, Bangladesh. (33029016652) (cropped).jpg",
+    "author": "Shadman Samee from Dhaka, Bangladesh",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tata_Winger_van,_Bangladesh._(33029016652)_(cropped).jpg"
+  },
+  "fleet/mini-bus": {
+    "title": "File:Force Motors - Traveller 26 - Agra 2014-05-14 4222.JPG",
+    "author": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Force_Motors_-_Traveller_26_-_Agra_2014-05-14_4222.JPG"
+  }
+}

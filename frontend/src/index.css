@@ -1,0 +1,92 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/manrope';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight text-ink;
+  }
+  ::selection {
+    background: #00dd00;
+    color: #171717;
+  }
+  :focus-visible {
+    outline: 2px solid #00dd00;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full px-6 py-3 text-sm font-semibold transition-all duration-300 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .btn-primary {
+    @apply btn bg-brand text-ink shadow-glow hover:-translate-y-0.5 hover:bg-brand-400 active:translate-y-0;
+  }
+  .btn-dark {
+    @apply btn bg-ink text-white hover:-translate-y-0.5 hover:bg-black;
+  }
+  .btn-outline {
+    @apply btn border border-line bg-white text-ink hover:border-ink;
+  }
+  .btn-ghost-light {
+    @apply btn border border-white/30 bg-white/10 text-white backdrop-blur-md hover:bg-white/20;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-brand-700;
+  }
+  .section {
+    @apply py-20 md:py-28;
+  }
+  .field-label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide text-muted;
+  }
+  .field {
+    @apply w-full rounded-xl border border-line bg-white px-4 py-3 text-sm text-ink placeholder:text-neutral-400 transition focus:border-brand focus:outline-none focus:ring-4 focus:ring-brand/15;
+  }
+  .field-error {
+    @apply mt-1 text-xs font-medium text-red-600;
+  }
+  .card {
+    @apply rounded-3xl border border-line bg-white shadow-soft transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
