@@ -160,7 +160,7 @@ export default function Home() {
             <div className="overflow-hidden rounded-[2rem]">
               <img
                 src="/images/site/about-team.webp"
-                alt="Professional Karan Tours & Travels chauffeur opening the car door"
+                alt="Karan Tours & Travels fleet lineup — Maruti Swift Dzire, Toyota Innova Crysta and Force Urbania"
                 loading="lazy"
                 width="1376"
                 height="768"
