@@ -9,7 +9,7 @@ const CATEGORY_INFO = {
   Sedan: 'Compact and comfortable — perfect for solo travellers, couples and airport transfers.',
   SUV: 'Premium space and comfort for families and long highway journeys.',
   MUV: 'Smart, spacious 7-seaters for small groups and weekend getaways.',
-  'Tempo Traveller': 'Group travel made easy — ideal for pilgrimages, tours and weddings.',
+  Urbania: 'Group travel made easy — ideal for pilgrimages, tours and weddings.',
   'Mini Bus': 'For large groups, corporate events and school or college trips.',
 };
 
@@ -19,8 +19,8 @@ export default function Fleet() {
   return (
     <>
       <Seo
-        title="Our Fleet – Sedan, SUV, MUV, Tempo Traveller & Mini Bus"
-        description="Choose from Swift Dzire, Toyota Etios, Ertiga, Innova Crysta, Innova HyCross, Kia Carens, Force Tempo Traveller, Tata Winger and mini buses. AC taxis from Nagpur."
+        title="Our Fleet – Sedan, SUV, MUV, Urbania & Mini Bus"
+        description="Choose from Swift Dzire, Toyota Etios, Ertiga, Innova Crysta, Innova HyCross, Kia Carens, Force Urbania, Tata Winger and mini buses. AC taxis from Nagpur."
         image="/images/fleet/innova-crysta.webp"
       />
       <PageHeader

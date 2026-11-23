@@ -66,7 +66,7 @@ export default function About() {
                 Madhya Pradesh, Chhattisgarh, Telangana and beyond.
               </p>
               <p>
-                Our fleet ranges from comfortable sedans for business travellers to spacious SUVs, MUVs, Tempo Travellers and mini
+                Our fleet ranges from comfortable sedans for business travellers to spacious SUVs, MUVs, Force Urbania and mini
                 buses for families and groups. Every vehicle is cleaned and checked before each journey, and every driver is
                 selected for experience, courtesy and safe driving.
               </p>

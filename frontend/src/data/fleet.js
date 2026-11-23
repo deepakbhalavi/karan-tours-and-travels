@@ -6,7 +6,7 @@
  *   pricing: { perKm: 12, label: 'per km' }
  * and the VehicleCard will display it automatically.
  */
-export const FLEET_CATEGORIES = ['Sedan', 'SUV', 'MUV', 'Tempo Traveller', 'Mini Bus'];
+export const FLEET_CATEGORIES = ['Sedan', 'SUV', 'MUV', 'Urbania', 'Mini Bus'];
 
 export const FLEET = [
   {
@@ -82,21 +82,21 @@ export const FLEET = [
     pricing: null,
   },
   {
-    id: 'force-tempo-traveller',
-    name: 'Force Tempo Traveller',
-    category: 'Tempo Traveller',
-    image: '/images/fleet/tempo-traveller.webp',
-    seats: '12 / 17 seater',
+    id: 'force-urbania',
+    name: 'Force Urbania',
+    category: 'Urbania',
+    image: '/images/fleet/force-urbania.webp',
+    seats: '10 / 13 / 17 seater',
     ac: true,
-    luggage: 'Roof carrier / rear space',
-    facilities: ['Push-back seats', 'Ample legroom', 'Music system', 'Roof carrier'],
+    luggage: 'Ample rear luggage space',
+    facilities: ['Reclining seats', 'Individual AC vents', 'Ample legroom', 'Music system'],
     idealFor: 'Group tours & pilgrimages',
     pricing: null,
   },
   {
     id: 'tata-winger',
     name: 'Tata Winger',
-    category: 'Tempo Traveller',
+    category: 'Urbania',
     image: '/images/fleet/tata-winger.webp',
     seats: '12 – 15 seater',
     ac: true,
@@ -125,7 +125,7 @@ export const VEHICLE_OPTIONS = [
   'MUV (Ertiga / Carens)',
   'SUV (Innova Crysta)',
   'Premium SUV (Innova HyCross)',
-  'Tempo Traveller',
+  'Urbania',
   'Mini Bus',
 ];
 

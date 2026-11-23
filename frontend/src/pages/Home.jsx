@@ -18,7 +18,7 @@ import { ROUTES } from '../data/routes';
 import { SITE } from '../config/site';
 
 const TRIP_SERVICE_IDS = ['oneway', 'roundtrip', 'local', 'airport'];
-const HOME_FLEET = ['swift-dzire', 'ertiga', 'innova-crysta', 'force-tempo-traveller'];
+const HOME_FLEET = ['swift-dzire', 'ertiga', 'innova-crysta', 'force-urbania'];
 
 export default function Home() {
   const { openBooking } = useBooking();
@@ -89,7 +89,7 @@ export default function Home() {
             align="left"
             eyebrow="Our Fleet"
             title="The right car for every trip"
-            description="Well-maintained sedans, SUVs, MUVs, Tempo Travellers and mini buses — all air-conditioned."
+            description="Well-maintained sedans, SUVs, MUVs, Force Urbania and mini buses — all air-conditioned."
             action={
               <Link to="/fleet" className="btn-outline">
                 Explore the fleet <ArrowRight className="h-4 w-4" aria-hidden="true" />

@@ -34,7 +34,7 @@ export const SERVICES = [
     id: 'corporate',
     icon: 'Briefcase',
     title: 'Corporate & Events',
-    description: 'Dependable transport for corporate guests, weddings and group events with Tempo Travellers & buses.',
+    description: 'Dependable transport for corporate guests, weddings and group events with Force Urbania & buses.',
   },
 ];
 
@@ -44,7 +44,7 @@ export const WHY_CHOOSE_US = [
   { icon: 'BadgeIndianRupee', title: 'Transparent Fares', text: 'Clear quotes with tolls and extras explained upfront.' },
   { icon: 'Clock', title: 'Always On Time', text: 'Punctual pickups for flights, trains and important meetings.' },
   { icon: 'Headset', title: '24/7 Assistance', text: 'Call or WhatsApp us anytime, before or during your trip.' },
-  { icon: 'Car', title: 'Wide Vehicle Choice', text: 'Sedans, SUVs, MUVs, Tempo Travellers and mini buses.' },
+  { icon: 'Car', title: 'Wide Vehicle Choice', text: 'Sedans, SUVs, MUVs, Force Urbania and mini buses.' },
 ];
 
 /**

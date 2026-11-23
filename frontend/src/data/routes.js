@@ -19,7 +19,7 @@ const r = (to, state, data) => ({
 export const ROUTES = [
   r('Pune', 'Maharashtra', {
     type: 'Long distance',
-    vehicles: ['Sedan', 'SUV', 'MUV', 'Tempo Traveller'],
+    vehicles: ['Sedan', 'SUV', 'MUV', 'Urbania'],
     image: '/images/destinations/mahabaleshwar.webp',
     description:
       'Travel from Nagpur to Pune — Maharashtra’s education and IT hub — in a private, air-conditioned cab. Ideal for students, professionals and families relocating or visiting, with flexible stops for meals and rest along the way.',
@@ -27,7 +27,7 @@ export const ROUTES = [
   }),
   r('Mumbai', 'Maharashtra', {
     type: 'Long distance',
-    vehicles: ['Sedan', 'SUV', 'MUV', 'Tempo Traveller'],
+    vehicles: ['Sedan', 'SUV', 'MUV', 'Urbania'],
     image: '/images/site/cta-road.webp',
     description:
       'Book a comfortable Nagpur to Mumbai taxi for business trips, airport connections or family visits. Your driver can take the Samruddhi Mahamarg expressway or your preferred route, with planned breaks for a relaxed journey.',
@@ -35,7 +35,7 @@ export const ROUTES = [
   }),
   r('Hyderabad', 'Telangana', {
     type: 'Interstate',
-    vehicles: ['Sedan', 'SUV', 'MUV', 'Tempo Traveller'],
+    vehicles: ['Sedan', 'SUV', 'MUV', 'Urbania'],
     image: '/images/site/hero-suv.webp',
     description:
       'Our Nagpur to Hyderabad cab service runs along the NH44 highway, offering a smooth interstate ride for corporate travellers, medical visits and family trips with all-India permit vehicles.',
@@ -51,7 +51,7 @@ export const ROUTES = [
   }),
   r('Jabalpur', 'Madhya Pradesh', {
     type: 'Interstate',
-    vehicles: ['Sedan', 'SUV', 'MUV', 'Tempo Traveller'],
+    vehicles: ['Sedan', 'SUV', 'MUV', 'Urbania'],
     image: '/images/destinations/jabalpur.webp',
     description:
       'A popular route for business, defence establishments and sightseeing at Bhedaghat’s marble rocks. Our Nagpur to Jabalpur taxis pass through the scenic Seoni and Pench forest belt.',
@@ -75,7 +75,7 @@ export const ROUTES = [
   }),
   r('Chandrapur', 'Maharashtra', {
     type: 'Outstation',
-    vehicles: ['Sedan', 'SUV', 'MUV', 'Tempo Traveller'],
+    vehicles: ['Sedan', 'SUV', 'MUV', 'Urbania'],
     image: '/images/destinations/tadoba.webp',
     description:
       'Travel to Chandrapur for work or as your gateway to the Tadoba Andhari Tiger Reserve. Our drivers know the resort and safari gate routes well.',
@@ -123,7 +123,7 @@ export const ROUTES = [
   }),
   r('Seoni', 'Madhya Pradesh', {
     type: 'Interstate',
-    vehicles: ['Sedan', 'SUV', 'MUV', 'Tempo Traveller'],
+    vehicles: ['Sedan', 'SUV', 'MUV', 'Urbania'],
     image: '/images/destinations/pench.webp',
     description:
       'A scenic NH44 drive into Madhya Pradesh — a great choice for Pench (Turia gate) safaris, business travel and family visits to Seoni.',
